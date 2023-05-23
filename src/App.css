@@ -1,0 +1,93 @@
+@import url("https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: rgb(22, 160, 133);
+  --box-color: #fff;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--main-color);
+}
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--main-color);
+  transition: all 0.2s ease;
+}
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: var(--box-color);
+  transition: all 0.2s ease;
+}
+.quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+  transition: all 0.2s ease;
+}
+.quote-text .quote-icon {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+.quote-author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+  transition: all 0.2s ease;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main .quote-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1em;
+  color: #fff;
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  cursor: pointer;
+}
+main .quote-button:hover {
+  color: #fff;
+}
+main .quote-btn {
+  height: 40px;
+  padding: 0 20px;
+  color: #fff;
+  background: var(--main-color);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+main .attributes{
+  color: #fff;
+}
