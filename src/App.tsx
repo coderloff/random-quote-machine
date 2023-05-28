@@ -21,11 +21,10 @@ const quoteData = [
 
 const colorData = [
   { color: "rgb(22, 160, 133)" },
-  { color: "rgb(44, 62, 80)" },
+  { color: "rgb(70, 120, 170)" },
   { color: "rgb(243, 156, 18)" },
   { color: "rgb(251, 105, 100)" },
   { color: "rgb(155, 89, 182)" },
-  { color: "rgb(52, 34, 36)" },
   { color : "rgb(119, 177, 169)" },
   { color: "rgb(231, 76, 60)" },
   { color: "rgb(189, 187, 153)" },
