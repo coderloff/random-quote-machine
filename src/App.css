@@ -1,5 +1,5 @@
 @import url("https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -92,7 +92,7 @@ main .quote-btn {
   outline: none;
   cursor: pointer;
 }
-main .attributes{
+main .attributes {
   color: var(--main-color);
   font-weight: 500;
 }
