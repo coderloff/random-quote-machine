@@ -94,4 +94,5 @@ main .quote-btn {
 }
 main .attributes{
   color: var(--main-color);
+  font-weight: 500;
 }
